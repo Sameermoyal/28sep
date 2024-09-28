@@ -1,0 +1,18 @@
+node* mergeList(node* a, node* b) {
+    node* ans = NULL;
+
+    if (a == NULL){
+        return (b);
+    }else if (b == NULL){
+        return (a);
+    }
+
+    if(a->data <= b->data){
+        ans = a;
+        ans->next = mergeList(a->next, b);
+    }else{
+        ans = b;
+        ans->next = mergeList(a, b->next);
+    }
+    return ans;
+}

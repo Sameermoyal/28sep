@@ -1,0 +1,16 @@
+Write difference between primitive and non primitive data structure, with example show the difference between array and linked list
+
+
+Primitive Data Structures:
+
+Definition: These are basic data types that serve as the building blocks for more complex data structures. They are predefined in most programming languages.
+Examples: Integer, Float, Character, Boolean, etc.
+
+Non-Primitive Data Structures:
+
+Definition: These are more complex data structures that can hold multiple values and are built using primitive data types.
+Examples: Arrays, Linked Lists, Stacks, Queues, Trees, Graphs, etc.
+
+
+array : A collection of elements stored in contiguous memory locations. it has fixed size.
+linkedlist: A collection of nodes, where each node contains data and a pointer to the next node.Dynamic size, can grow or shrink as needed.
